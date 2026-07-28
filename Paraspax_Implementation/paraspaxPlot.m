@@ -961,7 +961,7 @@ if strcmp(plotMode,'spatRefMapAz')
     set(gca, 'YDir','reverse')
     
     xlabel('Time [ms]');
-    ylabel('Azimuth [°]');
+    ylabel(['Azimuth [' char(176) ']']);
     ylabel(cb, 'Amplitude [dB]')
     
     set(gca,'FontSize',fontSize);
@@ -1089,7 +1089,7 @@ if strcmp(plotMode,'spatRefMapEl')
     
     
     xlabel('Time [ms]');
-    ylabel('Elevation [°]');
+    ylabel(['Elevation [' char(176) ']']);
     ylabel(cb, 'Amplitude [dB]')
     
     set(gca,'FontSize',fontSize);
@@ -1218,7 +1218,7 @@ if strcmp(plotMode,'spatRefMapAz_extrap')
     
     
     xlabel('Time [ms]');
-    ylabel('Azimuth [°]');
+    ylabel(['Azimuth [' char(176) ']']);
     ylabel(cb, 'Amplitude [dB]')
     
     set(gca,'FontSize',fontSize);
@@ -1282,7 +1282,7 @@ if strcmp(plotMode,'spatRefMapEl_extrap')
     
     
     xlabel('Time [ms]');
-    ylabel('Elevation [°]');
+    ylabel(['Elevation [' char(176) ']']);
     ylabel(cb, 'Amplitude [dB]')
     
     set(gca,'FontSize',fontSize);
